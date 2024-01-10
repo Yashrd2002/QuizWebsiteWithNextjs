@@ -70,7 +70,7 @@ const page = () => {
 
                     key={id}
                     onClick={() => ans(answer, id)}
-                    className={`${selectedAnswerIndex === id ? "bg-gray-500 text-white" : "text-black hover:bg-gray-500 hover:text-white"} px-10 text-lg font-semibold py-2 rounded-md cursor-pointer  bg-white`}
+                    className={`${selectedAnswerIndex === id ? "bg-gray-400 text-white" : "text-black hover:bg-gray-500 hover:text-white"} px-10 text-lg font-semibold py-2 rounded-md cursor-pointer  bg-white`}
                   >
                     {answer}
                   </div>
